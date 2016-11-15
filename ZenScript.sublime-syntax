@@ -19,12 +19,12 @@ contexts:
         2: variable.parameter.zs
 
     - comment: items and blocks
-      match: <(.*?):(.*?)(:(\d+))?>
+      match: <((.*?):((.*?)(:)?(\d+)?>)?)?
       scope: keyword.other.zs
       captures:
-        1: entity.name.zs
-        2: variable.parameter.zs
-        4: constant.numeric.zs
+        2: entity.name.zs
+        4: variable.parameter.zs
+        6: constant.numeric.zs
 
     - comment: control keywords
       scope: keyword.control.zs
@@ -37,7 +37,7 @@ contexts:
         1: storage.type.zs
 
     - comment: constants (true, false, null)
-      scope: variable.parameter.zs
+      scope: constant.language.zs
       match: \b(true|false|null)\b
 
     - comment: numbers
