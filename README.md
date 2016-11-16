@@ -3,4 +3,6 @@ Sublime Text highlighting for ZenScript used in [MineTweaker](https://github.com
 
 Inspired by [Nincrafts highlighting](https://github.com/Nincraft/minetweaker-syntax-highlighting), but a little more colourful.
 
+The [ZenScript.sublime-syntax](ZenScript.sublime-syntax) should be placed under `%appdata%\Sublime Text 3\Packages\User`
+
 Feel free to PR, fork or redistribute.
