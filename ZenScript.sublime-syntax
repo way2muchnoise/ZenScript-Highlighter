@@ -7,16 +7,22 @@ scope: source.zs
 
 contexts:
   main:
+    - comment: strings
+      match: \".*?\"
+      scope: string.quoted.double
+    - match: \"
+      scope: invalid.illegal.stray-bracket-end
+
     - comment: var
       scope: storage.type
       match: \b(var|byte)\b
 
     - comment: ores and liquids
-      match: <(ore|liquid):(.*?)>
+      match: <(ore|liquid)(((:)?(.*?))?>)?
       scope: keyword.other.zs
       captures:
         1: storage.type.zs
-        2: variable.parameter.zs
+        5: variable.parameter.zs
 
     - comment: items and blocks
       match: <((.*?):((.*?)(:)?(\d+)?>)?)?
@@ -86,13 +92,6 @@ contexts:
       scope: keyword.control.zs
       captures:
         1: storage.type.zs
-
-    - comment: strings
-      match: \".*?\"
-      scope: string.quoted.double
-    - match: \"
-      scope: invalid.illegal.stray-bracket-end
-
 
   roundbrackets:
     - match: \)
