@@ -6,3 +6,10 @@ Inspired by [Nincrafts highlighting](https://github.com/Nincraft/minetweaker-syn
 The [ZenScript.sublime-syntax](ZenScript.sublime-syntax) should be placed under `%appdata%\Sublime Text 3\Packages\User`
 
 Feel free to PR, fork or redistribute.
+
+# Example
+## Before
+![](http://puu.sh/slx5e/66fdfc036b.png)
+
+## After
+![](http://puu.sh/slx74/edc395183b.png)
