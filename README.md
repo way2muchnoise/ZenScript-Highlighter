@@ -5,6 +5,12 @@ Inspired by [Nincrafts highlighting](https://github.com/Nincraft/minetweaker-syn
 
 The [ZenScript.sublime-syntax](ZenScript.sublime-syntax) should be placed under `%appdata%\Sublime Text 3\Packages\User`
 
+You can also use [ZenScript.source.sublime-syntax](ZenScript.source.sublime-syntax)) which has an indent on wordwrap.
+
+Comparisons of the wordwraps:
+[ZenScript.sublime-syntax word wrap example](http://puu.sh/slBMs/b4ccafbecd.png)
+[ZenScript.source.sublime-syntax word wrap example](http://puu.sh/slBPe/bde1c852ff.png)
+
 Feel free to PR, fork or redistribute.
 
 # Example

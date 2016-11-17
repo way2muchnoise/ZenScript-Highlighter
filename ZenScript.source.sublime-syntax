@@ -3,7 +3,7 @@
 name: Zen Script
 file_extensions:
   - zs
-scope: plain.text.zs
+scope: source.zs
 
 contexts:
   main:
