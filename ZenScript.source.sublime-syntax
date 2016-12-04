@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-name: Zen Script Source
+name: Zen Script
 file_extensions:
   - zs
 scope: source.zs
@@ -16,21 +16,6 @@ contexts:
     - comment: var
       scope: storage.type
       match: \b(var|byte)\b
-
-    - comment: ores and liquids
-      match: <(ore|liquid)(((:)?(.*?))?>)?
-      scope: keyword.other.zs
-      captures:
-        1: storage.type.zs
-        5: variable.parameter.zs
-
-    - comment: items and blocks
-      match: <((.*?):((.*?)(:)?(\d+)?>)?)?
-      scope: keyword.other.zs
-      captures:
-        2: entity.name.zs
-        4: variable.parameter.zs
-        6: constant.numeric.zs
 
     - comment: control keywords
       scope: keyword.control.zs
@@ -77,6 +62,7 @@ contexts:
       scope: invalid.illegal.stray-bracket-end
 
     - match: \<
+      scope: keyword.control.zs
       push: ltgtbrackets
     - match: \>
       scope: invalid.illegal.stray-bracket-end
@@ -104,6 +90,19 @@ contexts:
     - include: main
 
   ltgtbrackets:
-    - match: \]
+    - comment: ores and liquids
+      match: \b(ore|liquid)(:(.*?)?)>
+      scope: keyword.other.zs
+      captures:
+        1: storage.type.zs
+        3: variable.parameter.zs
       pop: true
-    - include: main
+
+    - comment: items and blocks
+      match: \b(.*?)(:(.*?(:(\d+)?)?)?)>
+      scope: keyword.other.zs
+      captures:
+        1: entity.name.zs
+        3: variable.parameter.zs
+        5: constant.numeric.zs
+      pop: true
