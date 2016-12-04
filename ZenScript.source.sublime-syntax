@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-name: Zen Script
+name: Zen Script Source
 file_extensions:
   - zs
 scope: source.zs
@@ -82,7 +82,7 @@ contexts:
       scope: invalid.illegal.stray-bracket-end
 
     - comment: class names
-      match: ((^(.*?))|(?<=\()(.*?))\.
+      match: ((^([^\<]*?))|(?<=\()(.*?))\.
       scope: keyword.control.zs
       captures:
         1: storage.type.zs
