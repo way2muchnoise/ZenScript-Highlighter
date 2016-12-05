@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-name: Zen Script
+name: Zen Script Source
 file_extensions:
   - zs
 scope: source.zs
@@ -106,3 +106,6 @@ contexts:
         3: variable.parameter.zs
         5: constant.numeric.zs
       pop: true
+
+    - match: \>
+      scope: invalid.illegal.stray-bracket-end

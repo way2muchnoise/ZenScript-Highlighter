@@ -1,0 +1,22 @@
+{
+   "scope": "plain.text.zs, source.zs",
+
+   "completions":
+   [
+      { "trigger": "print", "contents": "print(\"$1\");" },
+      { "trigger": "addShaped\trecipes", "contents": "recipes.addShaped($1, [[$2, $3, $4], [$5, $6, $7], [$8, $9, $10]]);" },
+      { "trigger": "addShapeless\trecipes", "contents": "recipes.addShapeless($1, [$2]);" },
+      { "trigger": "remove\trecipes", "contents": "recipes.remove($1, $2);" },
+      { "trigger": "removeShaped\trecipes", "contents": "recipes.removeShaped($1);" },
+      { "trigger": "removeShapeless\trecipes", "contents": "recipes.removeShapeless($1);" },
+      { "trigger": "addRecipe\tfurnace", "contents": "furnace.addRecipe($1, $2);" },
+      { "trigger": "remove\tfurnace", "contents": "furnace.remove($1);" },
+      { "trigger": "setFuel\tfurnace", "contents": "furnace.setFuel($1, $2);" },
+      { "trigger": "addTooltip\ttooltip", "contents": "$0.addTooltip(\"$1\");" },
+      { "trigger": "addShiftTooltip\ttooltip", "contents": "$1.addShiftTooltip(\"$2\");" },
+      { "trigger": "format\ttext colour", "contents": "format.$1(\"$2\");" },
+      { "trigger": "anyDamage\titem", "contents": "anyDamage()" },
+      { "trigger": "transformDamage\titem", "contents": "transformDamage()" },
+      { "trigger": "withTag\titem", "contents": "withTag({$1})" },
+   ]
+}
