@@ -11,6 +11,8 @@ Comparisons of the wordwraps:
 * [ZenScript.sublime-syntax word wrap example](http://puu.sh/slBMs/b4ccafbecd.png)
 * [ZenScript.source.sublime-syntax word wrap example](http://puu.sh/slBPe/bde1c852ff.png)
 
+Now also has a bunch of completions. Want to support your own addon? Go read [scripts/README.md](scripts/README.md)
+
 Feel free to PR, fork or redistribute.
 
 # Example
