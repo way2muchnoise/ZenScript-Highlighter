@@ -1,0 +1,2 @@
+# ignore scripts/ from releases
+stripts/ export-ignore
