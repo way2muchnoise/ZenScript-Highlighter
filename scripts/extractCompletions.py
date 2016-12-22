@@ -20,14 +20,23 @@ def write_trigger(out, class_name, method_name, params):
               '", "contents": "' + class_name + '.' + method_name + '(' + ', '.join(params) + ');" },\n')
 
 zen_class = re.compile('@ZenClass\("(.*?)"\)')
-zen_method = re.compile('@ZenMethod\n\s+public static void (.*?)\((.*?)\)')
+zen_method = re.compile('@ZenMethod\n\s+.*?void (.*?)\((.*?)\)')
 
 out = open('completions.json', 'w')
+remaps = {}
+with open('remaps.txt') as f:
+    for line in f.readlines():
+        splitted = line.strip().split(':')
+        remaps[splitted[0]] = splitted[1]
 with open('classes.txt') as f:
     for line in f.readlines():
         url = line.strip()
+        if len(url) is 0 or url.startswith('#'):
+            continue
         page = fetch_page(url)
         class_name = zen_class.search(page).group(1)
+        if class_name in remaps:
+            class_name = remaps[class_name]
         methods = re.findall(zen_method, page)
         print class_name
         for method in methods:

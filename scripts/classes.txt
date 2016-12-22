@@ -1,3 +1,8 @@
+# MineTweaker/CraftTweaker
+https://raw.githubusercontent.com/jaredlll08/CraftTweaker/master/MineTweaker3-API/src/main/java/minetweaker/api/recipes/IFurnaceManager.java
+https://raw.githubusercontent.com/jaredlll08/CraftTweaker/master/MineTweaker3-API/src/main/java/minetweaker/api/recipes/IRecipeManager.java
+
+# ModTweaker
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/AtomicReconstructor.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/CoffeeMaker.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/Compost.java

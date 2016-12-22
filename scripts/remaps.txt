@@ -1,0 +1,2 @@
+minetweaker.recipes.IFurnaceManager:furnace
+minetweaker.recipes.IRecipeManager:recipes
