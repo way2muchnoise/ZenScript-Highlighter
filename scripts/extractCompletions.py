@@ -16,13 +16,14 @@ def param_clean(param):
 
 
 def write_trigger(out, class_name, method_name, params):
-    out.write('{ "trigger": "' + method_name + '\\t' + class_name +
+    out.write('      { "trigger": "' + method_name + '\\t' + class_name +
               '", "contents": "' + class_name + '.' + method_name + '(' + ', '.join(params) + ');" },\n')
 
 zen_class = re.compile('@ZenClass\("(.*?)"\)')
 zen_method = re.compile('@ZenMethod\n\s+.*?void (.*?)\((.*?)\)')
 
-out = open('completions.json', 'w')
+out = open('ZenScript.sublime-completions', 'w')
+out.write('{\n   "scope": "plain.text.zs, source.zs",\n\n   "completions":\n   [\n')
 remaps = {}
 with open('remaps.txt') as f:
     for line in f.readlines():
@@ -45,3 +46,4 @@ with open('classes.txt') as f:
             params = map(param_clean, params)
             print '\t' + method_name + '(' + ', '.join(params) + ')'
             write_trigger(out, class_name, method_name, params)
+out.write('   ]\n}')
