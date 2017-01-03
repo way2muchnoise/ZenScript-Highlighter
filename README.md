@@ -3,6 +3,10 @@ Sublime Text highlighting for ZenScript used in [MineTweaker](https://github.com
 
 Inspired by [Nincrafts highlighting](https://github.com/Nincraft/minetweaker-syntax-highlighting), but a little more colourful.
 
+The package can be found on [Package Control](https://packagecontrol.io/packages/ZenScript). How to install package control for Sublime text is found [here](https://packagecontrol.io/installation).  
+[Examples below](#example)
+
+## Manual Install
 The [ZenScript.sublime-syntax](ZenScript.sublime-syntax) should be placed under `%appdata%\Sublime Text 3\Packages\User`
 
 You can also use [ZenScript.source.sublime-syntax](ZenScript.source.sublime-syntax)) which has an indent on wordwrap.
