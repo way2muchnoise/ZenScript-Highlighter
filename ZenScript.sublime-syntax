@@ -9,12 +9,12 @@ contexts:
   main:
     - comment: strings
       match: \".*?\"
-      scope: string.quoted.double
+      scope: string.quoted.double.zs
     - match: \"
       scope: invalid.illegal.stray-bracket-end
 
     - comment: var
-      scope: storage.type
+      scope: storage.type.zs
       match: \b(var|byte)\b
 
     - comment: control keywords
@@ -48,24 +48,24 @@ contexts:
       scope: comment.block.zs
 
     - comment: math operators
-      scope: keyword.operator.arithmetic
+      scope: keyword.operator.arithmetic.zs
       match: (\-|\+|\*|\/|%)
       
     - match: \(
       push: roundbrackets
     - match: \)
-      scope: invalid.illegal.stray-bracket-end
+      scope: invalid.illegal.stray-bracket-end.zs
     
     - match: \[
       push: squarebrackets
     - match: \]
-      scope: invalid.illegal.stray-bracket-end
+      scope: invalid.illegal.stray-bracket-end.zs
 
     - match: \<
       scope: keyword.control.zs
       push: ltgtbrackets
     - match: \>
-      scope: invalid.illegal.stray-bracket-end
+      scope: invalid.illegal.stray-bracket-end.zs
 
     - comment: class names
       match: ((^([^\<]*?))|(?<=\()(.*?))\.
@@ -108,4 +108,4 @@ contexts:
       pop: true
 
     - match: \>
-      scope: invalid.illegal.stray-bracket-end
+      scope: invalid.illegal.stray-bracket-end.zs
