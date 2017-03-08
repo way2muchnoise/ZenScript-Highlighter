@@ -176,7 +176,7 @@
       { "trigger": "addRecipe\tmods.gregtech.Slicer", "contents": "mods.gregtech.Slicer.addRecipe(OutputStack, InputStack, InputBlade, timeInTicks, EnergyUsage);" },
       { "trigger": "addRecipe\tmods.gregtech.Unpacker", "contents": "mods.gregtech.Unpacker.addRecipe(OutputStack1, OutputStack2, InputStack, timeInTicks, EnergyUsage);" },
       { "trigger": "addRecipe\tmods.gregtech.VacuumFreezer", "contents": "mods.gregtech.VacuumFreezer.addRecipe(OutputStack, InputStack, timeInTicks);" },
-      { "trigger": "addRecipe\tmods.gregtech.Wiremill", "contents": "mods.gregtech.Wiremill.addRecipe(mods.gregtech.Wiremill.addRecipe(OutputStack, InputStack, timeInTicks, EnergyUsage);" },
+      { "trigger": "addRecipe\tmods.gregtech.Wiremill", "contents": "mods.gregtech.Wiremill.addRecipe(OutputStack, InputStack, timeInTicks, EnergyUsage);" },
       { "trigger": "addDieselFuel\tmods.gregtech.Fuels", "contents": "mods.gregtech.Fuels.addDieselFuel(OutputStack, InputStack, EnergyOutputPerMb);" },
       { "trigger": "addGasTurbineFuel\tmods.gregtech.Fuels", "contents": "mods.gregtech.Fuels.addGasTurbineFuel(OutputStack, InputStack, EnergyOutputPerMb);" },
       { "trigger": "addThermalGeneratorFuel\tmods.gregtech.Fuels", "contents": "mods.gregtech.Fuels.addThermalGeneratorFuel(OutputStack, InputStack, EnergyOutputPerMb);" },
