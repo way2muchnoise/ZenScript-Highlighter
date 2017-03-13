@@ -8,8 +8,6 @@ https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/mod
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/Compost.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/Crusher.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/Empowerer.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/appeng/handlers/Grind.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/appeng/handlers/Inscriber.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/bloodmagic/handlers/AlchemyTable.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/bloodmagic/handlers/Altar.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/bloodmagic/handlers/SoulForge.java

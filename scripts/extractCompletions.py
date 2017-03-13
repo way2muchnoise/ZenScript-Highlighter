@@ -9,9 +9,14 @@ def fetch_page(url):
 
 
 def param_clean(param):
-    param_name = param.split(' ')[-1]
-    if param.startswith('@'):
-        param_name = 'optional' + param_name.capitalize()
+    param_splited = param.split(' ')
+    param_name = param_splited[-1]
+    param_type = param_splited[-2]
+    if param.startswith('@Optional'):
+        param_name = 'optional' + param_name[0].capitalize() + param_name[1:]
+    while param_type.endswith('[]'):
+        param_name += '[]'
+        param_type = param_type[:-2]
     return param_name
 
 
