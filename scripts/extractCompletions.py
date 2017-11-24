@@ -4,8 +4,11 @@ import re
 
 
 def fetch_page(url):
-    response = urllib2.urlopen(url)
-    return response.read()
+    try:
+        response = urllib2.urlopen(url)
+        return response.read()
+    except urllib2.HTTPError:
+        return None
 
 
 def param_clean(param):
@@ -30,6 +33,7 @@ zen_method = re.compile('@ZenMethod\n\s+.*?void (.*?)\((.*?)\)')
 out = open('ZenScript.sublime-completions', 'w')
 out.write('{\n   "scope": "plain.text.zs, source.zs",\n\n   "completions":\n   [\n')
 remaps = {}
+errors = []
 with open('remaps.txt') as f:
     for line in f.readlines():
         splitted = line.strip().split(':')
@@ -40,6 +44,9 @@ with open('classes.txt') as f:
         if len(url) is 0 or url.startswith('#'):
             continue
         page = fetch_page(url)
+        if page is None:
+            errors.append(url)
+            continue
         class_name = zen_class.search(page).group(1)
         if class_name in remaps:
             class_name = remaps[class_name]
@@ -48,7 +55,11 @@ with open('classes.txt') as f:
         for method in methods:
             method_name = method[0]
             params = method[1].split(', ')
-            params = map(param_clean, params)
+            if params[0] != '':
+                params = map(param_clean, params)
             print '\t' + method_name + '(' + ', '.join(params) + ')'
             write_trigger(out, class_name, method_name, params)
 out.write('   ]\n}')
+print "Errored urls"
+for error in errors:
+    print error
