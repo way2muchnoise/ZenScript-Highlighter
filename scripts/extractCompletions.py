@@ -32,7 +32,7 @@ def write_trigger(out, class_name, method_name, params):
               '", "contents": "' + class_name + '.' + method_name + '(' + ', '.join(params) + ');" },\n')
 
 zen_class = re.compile('@ZenClass\((value = )?"(.*?)"\)')
-zen_method = re.compile('@ZenMethod\n\s+.*?void (.*?)\((.*?)\)')
+zen_method = re.compile('@ZenMethod\n\s+.*?void (.*?)\s?\((.*?)\)')
 
 out = open('ZenScript.sublime-completions', 'w')
 out.write('{\n   "scope": "plain.text.zs, source.zs",\n\n   "completions":\n   [\n')
