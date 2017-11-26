@@ -31,7 +31,7 @@ def write_trigger(out, class_name, method_name, params):
     out.write('      { "trigger": "' + method_name + '\\t' + class_name +
               '", "contents": "' + class_name + '.' + method_name + '(' + ', '.join(params) + ');" },\n')
 
-zen_class = re.compile('@ZenClass\("(.*?)"\)')
+zen_class = re.compile('@ZenClass\((value = )?"(.*?)"\)')
 zen_method = re.compile('@ZenMethod\n\s+.*?void (.*?)\((.*?)\)')
 
 out = open('ZenScript.sublime-completions', 'w')
@@ -51,7 +51,7 @@ with open('classes.txt') as f:
         if page is None:
             errors.append(url)
             continue
-        class_name = zen_class.search(page).group(1)
+        class_name = zen_class.search(page).group(2)
         if class_name in remaps:
             class_name = remaps[class_name]
         methods = re.findall(zen_method, page)
