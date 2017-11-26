@@ -12,6 +12,8 @@ def fetch_page(url):
 
 
 def param_clean(param):
+    if ' ' not in param and '...' in param:
+        param = param.replace('...', '... ')
     param_splited = param.split(' ')
     param_name = param_splited[-1]
     param_type = param_splited[-2]
@@ -20,6 +22,8 @@ def param_clean(param):
     while param_type.endswith('[]'):
         param_name += '[]'
         param_type = param_type[:-2]
+    if param_type.endswith('...'):
+        param_name += '...'
     return param_name
 
 
