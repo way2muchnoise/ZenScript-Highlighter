@@ -1,42 +1,86 @@
-# MineTweaker/CraftTweaker
-https://raw.githubusercontent.com/jaredlll08/CraftTweaker/master/MineTweaker3-API/src/main/java/minetweaker/api/recipes/IFurnaceManager.java
-https://raw.githubusercontent.com/jaredlll08/CraftTweaker/master/MineTweaker3-API/src/main/java/minetweaker/api/recipes/IRecipeManager.java
+# Abyssalcraft
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/CreationRitual.java
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/Crystallizer.java
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/EnchantmentRitual.java
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/InfusionRitual.java
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/InternalNecroData.java
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/PotionAoERitual.java
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/PotionRitual.java
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/Shoggoth.java
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/Transmutator.java
+https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/UpgradeKit.java
 
-# ModTweaker
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/AtomicReconstructor.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/CoffeeMaker.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/Compost.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/Crusher.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/actuallyadditions/handlers/Empowerer.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/bloodmagic/handlers/AlchemyTable.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/bloodmagic/handlers/Altar.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/bloodmagic/handlers/SoulForge.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/botania/handlers/Apothecary.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/botania/handlers/Brew.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/botania/handlers/ElvenTrade.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/botania/handlers/Lexicon.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/botania/handlers/ManaInfusion.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/botania/handlers/Orechid.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/botania/handlers/PureDaisy.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/botania/handlers/RuneAltar.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/chisel/handlers/Groups.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/embers/handlers/Melter.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/embers/handlers/Mixer.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/embers/handlers/Stamper.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/extrautils/handlers/Resonator.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/forestry/handlers/Carpenter.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/forestry/handlers/Centrifuge.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/forestry/handlers/Fermenter.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/forestry/handlers/Moistener.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/forestry/handlers/Squeezer.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/forestry/handlers/Still.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/forestry/handlers/ThermionicFabricator.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/randomthings/handlers/ImbuingStation.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/refinedstorage/handlers/Solderer.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/tconstruct/handlers/Casting.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/tconstruct/handlers/Drying.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/tconstruct/handlers/Modifiers.java
-https://raw.githubusercontent.com/jaredlll08/ModTweaker/master/src/main/java/modtweaker/mods/tconstruct/handlers/Smeltery.java
+# Armor Plus
+https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/ChampionBench.java
+https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/HighTechBench.java
+https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/UltiTechBench.java
+https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/Workbench.java
+https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/lavainfuser/LavaInfuser.java
+
+# Armourable Mobs
+https://raw.githubusercontent.com/Buuz135/ArmoreableMobs/1a44feb50d15841ec7d8f85944d9c9a70199694a/src/main/java/com/buuz135/armoreablemobs/handler/ArmorHandler.java
+https://raw.githubusercontent.com/Buuz135/ArmoreableMobs/1a44feb50d15841ec7d8f85944d9c9a70199694a/src/main/java/com/buuz135/armoreablemobs/handler/ArmorGroup.java
+https://raw.githubusercontent.com/Buuz135/ArmoreableMobs/1a44feb50d15841ec7d8f85944d9c9a70199694a/src/main/java/com/buuz135/armoreablemobs/handler/ArmorSlot.java
+
+# Astral Sorcery
+https://raw.githubusercontent.com/HellFirePvP/AstralSorcery/d305a719d65181661099de76439dd27696d1684c/src/main/java/hellfirepvp/astralsorcery/common/integrations/mods/crafttweaker/tweaks/AltarRecipe.java
+https://raw.githubusercontent.com/HellFirePvP/AstralSorcery/d305a719d65181661099de76439dd27696d1684c/src/main/java/hellfirepvp/astralsorcery/common/integrations/mods/crafttweaker/tweaks/InfusionRecipe.java
+https://raw.githubusercontent.com/HellFirePvP/AstralSorcery/d305a719d65181661099de76439dd27696d1684c/src/main/java/hellfirepvp/astralsorcery/common/integrations/mods/crafttweaker/tweaks/LightTransmutations.java
+https://raw.githubusercontent.com/HellFirePvP/AstralSorcery/d305a719d65181661099de76439dd27696d1684c/src/main/java/hellfirepvp/astralsorcery/common/integrations/mods/crafttweaker/tweaks/RitualMineralis.java
+https://raw.githubusercontent.com/HellFirePvP/AstralSorcery/d305a719d65181661099de76439dd27696d1684c/src/main/java/hellfirepvp/astralsorcery/common/integrations/mods/crafttweaker/tweaks/WellRecipe.java
+
+#Bad Mobs
+https://raw.githubusercontent.com/Darkhax-Minecraft/BadMobs/25a89e31b5e16b195972f48654fea676930f85d8/src/main/java/net/darkhax/badmobs/addons/crt/BadMobsTweaker.java
+
+# Caravan
+https://raw.githubusercontent.com/Blargerist/Caravans/master/src/main/java/primetoxinz/caravans/compat/MTCaravan.java
+https://raw.githubusercontent.com/Blargerist/Caravans/master/src/main/java/primetoxinz/caravans/compat/IEntity.java
+
+# ContentTweaker
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/VanillaFactory.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/items/ItemRepresentation.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/blocks/BlockRepresentation.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/fluids/FluidRepresentation.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/items/ICreativeTab.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/utils/Particles.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/resources/sounds/ISoundTypeDefinition.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/resources/sounds/ISoundEventDefinition.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/enchantments/IEnchantment.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/utils/commands/Commands.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/functions/IItemUse.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/functions/IBlockAction.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/functions/IItemRightClick.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/CTMaterialSystem.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/parts/IPart.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/parttypes/IPartType.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materialparts/IMaterialPart.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materials/IMaterialBuilder.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/functions/IRegisterMaterialPart.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materialpartdata/IMaterialPartData.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materials/IMaterial.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materialparts/IMaterialPart.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/entity/living/IEntityLiving.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/mutableitemstack/IMutableItemStack.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/blockpos/IBlockPos.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/blockstate/ICTBlockState.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/entity/player/ICTPlayer.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/enums/Hand.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/world/IWorld.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/enums/ActionResult.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/enums/Facing.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/aabb/MCAxisAlignedBB.java
+
+# Crossroads
+https://raw.githubusercontent.com/Da-Technomancer/Crossroads/708a194be231a70550b663b1969bd0ccdc89ae01/src/main/java/com/Da_Technomancer/crossroads/integration/crafttweaker/FluidCoolingChamberHandler.java
+https://raw.githubusercontent.com/Da-Technomancer/Crossroads/708a194be231a70550b663b1969bd0ccdc89ae01/src/main/java/com/Da_Technomancer/crossroads/integration/crafttweaker/GrindstoneHandler.java
+
+# Dimension Stages
+https://raw.githubusercontent.com/Darkhax-Minecraft/DimensionStages/master/src/main/java/net/darkhax/dimstages/compat/crt/DimensionStagesCrT.java
+
+# Extended Crafting
+https://raw.githubusercontent.com/BlakeBr0/ExtendedCrafting/master/1.12/src/main/java/com/blakebr0/extendedcrafting/compat/crafttweaker/CombinationCrafting.java
+https://raw.githubusercontent.com/BlakeBr0/ExtendedCrafting/master/1.12/src/main/java/com/blakebr0/extendedcrafting/compat/crafttweaker/CompressionCrafting.java
+https://raw.githubusercontent.com/BlakeBr0/ExtendedCrafting/master/1.12/src/main/java/com/blakebr0/extendedcrafting/compat/crafttweaker/TableCrafting.java
 
 # GregTech Tweaker
 https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/AlloySmelter.java
@@ -83,3 +127,156 @@ https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/mas
 https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/VacuumFreezer.java
 https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Wiremill.java
 https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/Fuels.java
+
+# Horse Power
+https://raw.githubusercontent.com/GoryMoon/HorsePower/487513c7637f9e9c55d1066a3646d001bbf9aef7/src/main/java/se/gory_moon/horsepower/tweaker/recipes/ChoppingRecipeTweaker.java
+https://raw.githubusercontent.com/GoryMoon/HorsePower/487513c7637f9e9c55d1066a3646d001bbf9aef7/src/main/java/se/gory_moon/horsepower/tweaker/recipes/GrindstoneRecipeTweaker.java
+https://raw.githubusercontent.com/GoryMoon/HorsePower/7e7b10c7e600ae9d89d65a77234cde8fe05f8731/src/main/java/se/gory_moon/horsepower/tweaker/recipes/PressRecipeTweaker.java
+
+# Immersive Engineering
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/AlloySmelter.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/ArcFurnace.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/BlastFurnace.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Blueprint.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/BottlingMachine.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/CokeOven.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Crusher.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/DieselHelper.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Excavator.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Fermenter.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/MetalPress.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Mixer.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Refinery.java
+https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Squeezer.java
+
+# Industrial Foregoing
+https://raw.githubusercontent.com/Buuz135/Industrial-Foregoing/d40c855514a51c56f49281a9f6fed52b523f38e6/src/main/java/com/buuz135/industrial/utils/apihandlers/crafttweaker/CTBioReactor.java
+https://raw.githubusercontent.com/Buuz135/Industrial-Foregoing/d40c855514a51c56f49281a9f6fed52b523f38e6/src/main/java/com/buuz135/industrial/utils/apihandlers/crafttweaker/CTLaserDrill.java
+https://raw.githubusercontent.com/Buuz135/Industrial-Foregoing/d40c855514a51c56f49281a9f6fed52b523f38e6/src/main/java/com/buuz135/industrial/utils/apihandlers/crafttweaker/CTSludgeRefiner.java
+
+# Initial Inventory
+https://raw.githubusercontent.com/jaredlll08/InitialInventory/a6920aa63c8f9474d2e29dc88abb6e9538e80dd2/src/main/java/com/blamejared/initialinventory/handlers/InvHandler.java
+
+# Item Stages
+https://raw.githubusercontent.com/Darkhax-Minecraft/ItemStages/cdd64d8b8e24b9fe6d48044fde058c19ab94efca/src/main/java/net/darkhax/itemstages/compat/crt/ItemStagesCrT.java
+
+# Loot Table Tweaker
+https://raw.githubusercontent.com/Darkhax-Minecraft/LootTableTweaker/51bbdba7f4cb9ac6c0d3d46f3b09fa6a069830af/src/main/java/net/darkhax/lttweaker/crt/LootTableTweaker.java
+
+# Magneticraft
+https://raw.githubusercontent.com/Magneticraft-Team/Magneticraft/9309ba4279dae06b6d16b73c81d642c4a785839e/src/main/kotlin/com/cout970/magneticraft/integration/crafttweaker/CrushingTable.kt
+https://raw.githubusercontent.com/Magneticraft-Team/Magneticraft/9309ba4279dae06b6d16b73c81d642c4a785839e/src/main/kotlin/com/cout970/magneticraft/integration/crafttweaker/SluiceBox.kt
+
+# Mekanism
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/gas/IGasDefinition.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/gas/IGasStack.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/ChemicalCrystallizer.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/ChemicalDissolution.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/ChemicalInfuser.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/ChemicalInjection.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/ChemicalOxidizer.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/ChemicalWasher.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/Combiner.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/Compressor.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/Crusher.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/EnergizedSmelter.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/Enrichment.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/Infuser.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/Purification.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/Reaction.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/Sawmill.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/Separator.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/SolarNeutronActivator.java
+https://raw.githubusercontent.com/aidancbrady/Mekanism/f9ec882bcebf685c3b75237bc90d460b217b52a8/src/main/java/mekanism/common/integration/crafttweaker/handlers/ThermalEvaporation.java
+
+# MineTweaker/CraftTweaker
+https://raw.githubusercontent.com/jaredlll08/CraftTweaker/master/MineTweaker3-API/src/main/java/minetweaker/api/recipes/IFurnaceManager.java
+https://raw.githubusercontent.com/jaredlll08/CraftTweaker/master/MineTweaker3-API/src/main/java/minetweaker/api/recipes/IRecipeManager.java
+
+# Mob Stages
+https://raw.githubusercontent.com/Darkhax-Minecraft/MobStages/87fdf88f849db42bb3c4763d3377ec941480c62d/src/main/java/net/darkhax/mobstages/compat/crt/MobStagesCrT.java
+
+# ModTweaker
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/actuallyaddition/AtomicReconstructor.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/actuallyaddition/BallOfFur.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/actuallyaddition/Compost.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/actuallyaddition/Crusher.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/actuallyaddition/Empowerer.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/actuallyaddition/MiningLens.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/actuallyaddition/OilGen.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/actuallyaddition/TreasureChest.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Anvil.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Buoyancy.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Cauldron.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Crucible.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Kiln.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Mill.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Movement.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Saw.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/StokedCauldron.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/StokedCrucible.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Turntable.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/extrautils2/Crusher.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/extrautils2/Resonator.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/Carpenter.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/Centrifuge.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/Fermenter.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/Moistener.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/Squeezer.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/Still.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/ThermionicFabricator.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tconstruct/Alloy.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tconstruct/Casting.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tconstruct/Drying.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tconstruct/Fuel.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tconstruct/Melting.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Centrifuge.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Compactor.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Crucible.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/InductionSmelter.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Infuser.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Insolator.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Pulverizer.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/RedstoneFurnace.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Refinery.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/SawMill.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Transposer.java
+
+# Nuclear Craft
+https://raw.githubusercontent.com/turbodiesel4598/NuclearCraft/c7b35b116ef4ad4a90980d5b63da3484724112e8/src/main/java/nc/integration/crafttweaker/NCCraftTweaker.java
+
+# Pneumaticraft Repressurized
+https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/Assembly.java
+
+# Recipe Stages
+https://raw.githubusercontent.com/jaredlll08/RecipeStages/a0fb6951bf9c573452ae45d1218f1a3d9361b360/src/main/java/com/blamejared/recipestages/handlers/Recipes.java
+https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/HeatFrameCooling.java
+https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/PressureChamber.java
+https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/Refinery.java
+https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/ThermopneumaticProcessingPlant.java
+
+# Tech Reborn
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTAlloySmelter.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTAssemblingMachine.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTBlastFurnace.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTCentrifuge.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTChemicalReactor.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTCompressor.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTFusionReactor.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTGenerator.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTImplosionCompressor.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTIndustrialElectrolyzer.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTIndustrialGrinder.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTIndustrialSawmill.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTRollingMachine.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTScrapbox.java
+https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTVacuumFreezer.java
+
+# Tinker Stages
+https://raw.githubusercontent.com/Darkhax-Minecraft/TinkerStages/059bb79a386ea9f4c24957ae49641cfcf3c8ce3a/src/main/java/net/darkhax/tinkerstages/compat/crt/TinkerStagesCrT.java
+
+#Viescraft (Requires Viescraft Tweaker)
+https://raw.githubusercontent.com/GoryMoon/ViesCraftTweaker/master/src/main/java/se/gory_moon/vctweaker/tweaker/TweakerIntegration.java
+
+# Waila Stages
+https://raw.githubusercontent.com/Darkhax-Minecraft/WailaStages/deac9261deef205181bae5b5e6ea9e00fb54f6dc/src/main/java/com/jarhax/wailastages/compat/crt/WailaStagesCrT.java
