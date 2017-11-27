@@ -1,0 +1,32 @@
+Your ZenScript Highlighter is now updated to version 0.4.0
+
+Added Support:
+	AbyssalCraft
+	Armor Plus
+	Armourable Mobs
+	Astral Sorcery
+	Bad Mobs
+	Caravan
+	ContentTweaker
+	Crossroads
+	Dimension Stages
+	Extended Crafting
+	Horse Power
+	Immersive Engineering
+	Industrial Foregoing
+	Initial Inventory
+	Item Stages
+	Loot Table Tweaker
+	Magneticraft
+	Mekanism
+	Mob Stages
+	Nuclear Craft
+	Pack Mode
+	Pneumaticraft Repressurized
+	Recipe Stages
+	Tech Reborn
+	Tinker Stages
+	Waila Stages
+
+Updated Support:
+	ModTweaker

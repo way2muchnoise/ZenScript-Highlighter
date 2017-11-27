@@ -59,7 +59,6 @@ https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12
 https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materialpartdata/IMaterialPartData.java
 https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materials/IMaterial.java
 https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materialparts/IMaterialPart.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/entity/living/IEntityLiving.java
 https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/mutableitemstack/IMutableItemStack.java
 https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/blockpos/IBlockPos.java
 https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/blockstate/ICTBlockState.java
