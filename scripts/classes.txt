@@ -245,6 +245,9 @@ https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/b
 # Nuclear Craft
 https://raw.githubusercontent.com/turbodiesel4598/NuclearCraft/c7b35b116ef4ad4a90980d5b63da3484724112e8/src/main/java/nc/integration/crafttweaker/NCCraftTweaker.java
 
+# Pack Mode
+https://raw.githubusercontent.com/SkySom/PackMode/develop/1.12/src/main/java/io/sommers/packmode/compat/crafttweaker/PackModeInfo.java
+
 # Pneumaticraft Repressurized
 https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/Assembly.java
 
