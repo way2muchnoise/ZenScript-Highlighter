@@ -10,13 +10,6 @@ https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d55
 https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/Transmutator.java
 https://raw.githubusercontent.com/Shinoow/AbyssalCraft-Integration/60aaac5c55d555fa9bf7ad63140ab946b3b45602/src/main/java/com/shinoow/acintegration/integrations/minetweaker/UpgradeKit.java
 
-# Armor Plus
-https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/ChampionBench.java
-https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/HighTechBench.java
-https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/UltiTechBench.java
-https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/Workbench.java
-https://raw.githubusercontent.com/TheDragonTeam/ArmorPlus/11c3d815204f5d7c38abd675e0683bdb408689e4/src/main/java/net/thedragonteam/armorplus/compat/crafttweaker/lavainfuser/LavaInfuser.java
-
 # Armourable Mobs
 https://raw.githubusercontent.com/Buuz135/ArmoreableMobs/1a44feb50d15841ec7d8f85944d9c9a70199694a/src/main/java/com/buuz135/armoreablemobs/handler/ArmorHandler.java
 https://raw.githubusercontent.com/Buuz135/ArmoreableMobs/1a44feb50d15841ec7d8f85944d9c9a70199694a/src/main/java/com/buuz135/armoreablemobs/handler/ArmorGroup.java
