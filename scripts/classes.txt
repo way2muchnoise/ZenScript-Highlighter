@@ -250,13 +250,13 @@ https://raw.githubusercontent.com/SkySom/PackMode/develop/1.12/src/main/java/io/
 
 # Pneumaticraft Repressurized
 https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/Assembly.java
-
-# Recipe Stages
-https://raw.githubusercontent.com/jaredlll08/RecipeStages/a0fb6951bf9c573452ae45d1218f1a3d9361b360/src/main/java/com/blamejared/recipestages/handlers/Recipes.java
 https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/HeatFrameCooling.java
 https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/PressureChamber.java
 https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/Refinery.java
 https://raw.githubusercontent.com/TeamPneumatic/pnc-repressurized/master/src/main/java/me/desht/pneumaticcraft/common/thirdparty/crafttweaker/handlers/ThermopneumaticProcessingPlant.java
+
+# Recipe Stages
+https://raw.githubusercontent.com/jaredlll08/RecipeStages/a0fb6951bf9c573452ae45d1218f1a3d9361b360/src/main/java/com/blamejared/recipestages/handlers/Recipes.java
 
 # Tech Reborn
 https://raw.githubusercontent.com/TechReborn/TechReborn/e9dd7650620d489e221d475a985ec1e60f01c4da/src/main/java/techreborn/compat/crafttweaker/CTAlloySmelter.java
