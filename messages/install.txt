@@ -1,0 +1,34 @@
+Thank you for installing the ZenScript Highlighter!
+
+If you encounter any issues or want to propose features feel free to do so at
+https://github.com/way2muchnoise/ZenScript-Highlighter
+
+The current list of supported mods is:
+	Abyssalcraft
+	Armor Plus
+	Armourable Mobs
+	Astral Sorcery
+	Caravan
+	ContentTweaker
+	Crossroads
+	Dimension Stages
+	Extended Crafting
+	GregTech Tweaker
+	Horse Power
+	Immersive Engineering
+	Industrial Foregoing
+	Initial Inventory
+	Item Stages
+	Loot Table Tweaker
+	Magneticraft
+	Mekanism
+	MineTweaker/CraftTweaker
+	Mob Stages
+	ModTweaker
+	Nuclear Craft
+	Pack Mode
+	Pneumaticraft Repressurized
+	Recipe Stages
+	Tech Reborn
+	Tinker Stages
+	Waila Stages
