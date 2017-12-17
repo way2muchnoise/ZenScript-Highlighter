@@ -1,0 +1,1 @@
+{"platforms": ["*"], "url": "https://github.com/way2muchnoise/ZenScript-Highlighter", "sublime_text": "*", "version": "0.3.0", "dependencies": [], "description": "Sublime Text highlighting for ZenScript used in MineTweaker, CraftTweaker and ModTweaker"}
