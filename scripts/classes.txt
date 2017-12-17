@@ -1,7 +1,7 @@
 ## Crafttweaker and ModTweaker needs to be first for Auto-complete suggestions sake!
 # MineTweaker/CraftTweaker
-https://raw.githubusercontent.com/jaredlll08/CraftTweaker/master/MineTweaker3-API/src/main/java/minetweaker/api/recipes/IFurnaceManager.java
-https://raw.githubusercontent.com/jaredlll08/CraftTweaker/master/MineTweaker3-API/src/main/java/minetweaker/api/recipes/IRecipeManager.java
+https://raw.githubusercontent.com/jaredlll08/CraftTweaker/1.12/CraftTweaker2-API/src/main/java/crafttweaker/api/recipes/IFurnaceManager.java
+https://raw.githubusercontent.com/jaredlll08/CraftTweaker/1.12/CraftTweaker2-API/src/main/java/crafttweaker/api/recipes/IRecipeManager.java
 
 # ModTweaker
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/actuallyaddition/AtomicReconstructor.java
