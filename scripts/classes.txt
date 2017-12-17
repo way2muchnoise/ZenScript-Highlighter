@@ -216,6 +216,15 @@ https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/b
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/StokedCauldron.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/StokedCrucible.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/betterwithmods/Turntable.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/botania/handlers/Apothecary.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/botania/handlers/Brew.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/botania/handlers/ElvenTrade.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/botania/handlers/Lexicon.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/botania/handlers/ManaInfusion.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/botania/handlers/Orechid.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/botania/handlers/OrechidIgnem.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/botania/handlers/PureDaisy.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/botania/handlers/RuneAltar.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/extrautils2/Crusher.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/extrautils2/Resonator.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/Carpenter.java
