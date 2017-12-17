@@ -1,0 +1,6 @@
+Your ZenScript Highlighter is now updated to version 0.4.2
+
+We resorted the completions to make it easier to find commonly used completions.
+
+Added Support:
+	Botania
