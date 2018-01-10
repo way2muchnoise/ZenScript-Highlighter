@@ -41,6 +41,9 @@ https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/b
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/Squeezer.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/Still.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/forestry/ThermionicFabricator.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/refinedstorage/Solderer.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tcomplement/Blacklist.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tcomplement/Overrides.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tconstruct/Alloy.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tconstruct/Casting.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/tconstruct/Drying.java
@@ -49,6 +52,8 @@ https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/b
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Centrifuge.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Compactor.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Crucible.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Enchanter.java
+https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Imbuer.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/InductionSmelter.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Infuser.java
 https://raw.githubusercontent.com/jaredlll08/ModTweaker/1.12/src/main/java/com/blamejared/compat/thermalexpansion/Insolator.java
@@ -134,52 +139,6 @@ https://raw.githubusercontent.com/BlakeBr0/ExtendedCrafting/master/1.12/src/main
 https://raw.githubusercontent.com/BlakeBr0/ExtendedCrafting/master/1.12/src/main/java/com/blakebr0/extendedcrafting/compat/crafttweaker/CompressionCrafting.java
 https://raw.githubusercontent.com/BlakeBr0/ExtendedCrafting/master/1.12/src/main/java/com/blakebr0/extendedcrafting/compat/crafttweaker/TableCrafting.java
 
-# GregTech Tweaker
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/AlloySmelter.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Amplifabricator.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/ArcFurnace.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Assembler.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/AssemblyLine.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Autoclave.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Blastfurnace.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Brewery.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Canner.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Centrifuge.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/ChemicalBath.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/ChemicalReactor.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/CuttingSaw.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/DistillationTower.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Distillery.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Electrolyzer.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Extruder.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Fermenter.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/FluidCanner.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/FluidExtractor.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/FluidHeater.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/FluidSolidifier.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/ForgeHammer.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/FormingPress.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/FusionReactor.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/ImplosionCompressor.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Lathe.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Mixer.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/OilCracker.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Packer.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/PlasmaArcFurnace.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/PlateBender.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Polarizer.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/PrecisionLaser.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Printer.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Pulverizer.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/PyrolyseOven.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Separator.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Sifter.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Slicer.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Unpacker.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/VacuumFreezer.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/machines/Wiremill.java
-https://raw.githubusercontent.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/master/src/main/java/gttweaker/mods/gregtech/Fuels.java
-
 # Horse Power
 https://raw.githubusercontent.com/GoryMoon/HorsePower/487513c7637f9e9c55d1066a3646d001bbf9aef7/src/main/java/se/gory_moon/horsepower/tweaker/recipes/ChoppingRecipeTweaker.java
 https://raw.githubusercontent.com/GoryMoon/HorsePower/487513c7637f9e9c55d1066a3646d001bbf9aef7/src/main/java/se/gory_moon/horsepower/tweaker/recipes/GrindstoneRecipeTweaker.java
@@ -200,6 +159,14 @@ https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c53652358
 https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Mixer.java
 https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Refinery.java
 https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/495e2c5365235881285909cff65e087f945fdc1d/src/main/java/blusunrize/immersiveengineering/common/util/compat/crafttweaker/Squeezer.java
+
+# Immersive Petroleum
+https://raw.githubusercontent.com/Flaxbeard/ImmersivePetroleum/1.12.2/src/main/java/flaxbeard/immersivepetroleum/common/compat/crafttweaker/DistillationRecipeTweaker.java
+https://raw.githubusercontent.com/Flaxbeard/ImmersivePetroleum/1.12.2/src/main/java/flaxbeard/immersivepetroleum/common/compat/crafttweaker/LubricantRegistryTweaker.java
+https://raw.githubusercontent.com/Flaxbeard/ImmersivePetroleum/1.12.2/src/main/java/flaxbeard/immersivepetroleum/common/compat/crafttweaker/MotorboatFuelTweaker.java
+https://raw.githubusercontent.com/Flaxbeard/ImmersivePetroleum/1.12.2/src/main/java/flaxbeard/immersivepetroleum/common/compat/crafttweaker/PortableFuelTweaker.java
+https://raw.githubusercontent.com/Flaxbeard/ImmersivePetroleum/1.12.2/src/main/java/flaxbeard/immersivepetroleum/common/compat/crafttweaker/ReservoirTweaker.java
+
 
 # Industrial Foregoing
 https://raw.githubusercontent.com/Buuz135/Industrial-Foregoing/d40c855514a51c56f49281a9f6fed52b523f38e6/src/main/java/com/buuz135/industrial/utils/apihandlers/crafttweaker/CTBioReactor.java
