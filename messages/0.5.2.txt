@@ -1,0 +1,20 @@
+Your ZenScript Highlighter is now updated to version 0.5.1
+
+Changelog 0.5.2:
+- Added support for ArmorPlus
+
+Changelog 0.5.1:
+- Cleaned-Up ContentTweaker Auto-Completes after discussions with Developers
+
+Changelog 0.5.0:
+- Dropped Gregtech Tweaker Support (1.12 or Bust!)
+- Added Immersive Petroleum Support
+- Updated ModTweaker Support:
+    - Refined Storage
+        - Solderer
+    - TComplement
+        - Blacklist
+        - Overrides
+    - Thermal Expansion
+        - Enchanter
+        - Imbuer
