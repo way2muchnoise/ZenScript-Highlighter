@@ -1,4 +1,4 @@
-Your ZenScript Highlighter is now updated to version 0.5.1
+Your ZenScript Highlighter is now updated to version 0.5.2
 
 Changelog 0.5.2:
 - Added support for ArmorPlus
