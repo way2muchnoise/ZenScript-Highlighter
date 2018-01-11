@@ -13,9 +13,9 @@ The current list of supported mods is:
 	Crossroads
 	Dimension Stages
 	Extended Crafting
-	GregTech Tweaker
 	Horse Power
 	Immersive Engineering
+	Immersive Petroleum
 	Industrial Foregoing
 	Initial Inventory
 	Item Stages

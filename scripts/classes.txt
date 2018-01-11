@@ -96,36 +96,8 @@ https://raw.githubusercontent.com/Blargerist/Caravans/master/src/main/java/prime
 
 # ContentTweaker
 https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/VanillaFactory.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/items/ItemRepresentation.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/blocks/BlockRepresentation.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/fluids/FluidRepresentation.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/items/ICreativeTab.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/utils/Particles.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/resources/sounds/ISoundTypeDefinition.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/resources/sounds/ISoundEventDefinition.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/enchantments/IEnchantment.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/utils/commands/Commands.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/functions/IItemUse.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/functions/IBlockAction.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/functions/IItemRightClick.java
 https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/CTMaterialSystem.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/parts/IPart.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/parttypes/IPartType.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materialparts/IMaterialPart.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materials/IMaterialBuilder.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/functions/IRegisterMaterialPart.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materialpartdata/IMaterialPartData.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materials/IMaterial.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/materials/materialparts/IMaterialPart.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/mutableitemstack/IMutableItemStack.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/blockpos/IBlockPos.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/blockstate/ICTBlockState.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/entity/player/ICTPlayer.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/enums/Hand.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/world/IWorld.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/enums/ActionResult.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/enums/Facing.java
-https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/api/ctobjects/aabb/MCAxisAlignedBB.java
+https://raw.githubusercontent.com/The-Acronym-Coders/ContentTweaker/develop/1.12/src/main/java/com/teamacronymcoders/contenttweaker/modules/vanilla/utils/commands/Commands.java
 
 # Crossroads
 https://raw.githubusercontent.com/Da-Technomancer/Crossroads/708a194be231a70550b663b1969bd0ccdc89ae01/src/main/java/com/Da_Technomancer/crossroads/integration/crafttweaker/FluidCoolingChamberHandler.java
