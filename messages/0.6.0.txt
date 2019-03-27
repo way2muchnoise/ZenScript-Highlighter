@@ -1,0 +1,4 @@
+Your ZenScript Highlighter is now updated to version 0.6.0
+
+Changelog 0.5.0:
+- Updated syntax highlighting files with @jaredlll08's textmate syntax
