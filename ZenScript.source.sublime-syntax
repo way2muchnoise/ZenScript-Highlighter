@@ -17,12 +17,13 @@ contexts:
 
   brackets:
     - comment: items and blocks
-      match: (<)(.*?):(.*?)(:(\*|\d+)?)?(>)
+      match: <((.*?):(.*?)(:(\*|\d+)?))|(\*)>
       scope: keyword.other.zs
       captures:
         2: entity.name.zs
         3: variable.parameter.zs
         5: constant.numeric.zs
+        6: constant.numeric.zs
 
   class:
     - comment: class
