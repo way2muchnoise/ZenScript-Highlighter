@@ -1,16 +1,64 @@
 %YAML 1.2
 ---
-name: Zen Script Source
+name: ZenScript Source
 file_extensions:
   - zs
 scope: source.zs
 
 contexts:
   main:
-    - comment: line comment
-      match: (\/\/.*)|(#.*)
-      scope: comment.line.zs
+    - comment: numbers
+      match: \b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\b
+      scope: constant.numeric.zs
+    - comment: arrays
+      match: \b((?:[a-z]\w*\.)*[A-Z]+\w*)(?=\[)
+      scope: storage.type.object.array.zs
+    - include: code
 
+  brackets:
+    - comment: items and blocks
+      match: (<)(.*?):(.*?)(:(\*|\d+)?)?(>)
+      scope: keyword.other.zs
+      captures:
+        2: entity.name.zs
+        3: variable.parameter.zs
+        5: constant.numeric.zs
+
+  class:
+    - comment: class
+      match: (zenClass)\s+(\w+)
+      scope: meta.class.zs
+      captures:
+        1: storage.type.zs
+        2: entity.name.type.class.zs
+
+  class-constructor:
+    - comment: class constructor
+      match: \b(zenConstructor)\s*(?=\()
+      scope: meta.class.zs
+      captures:
+        1: entity.name.function.zs
+
+  code:
+    - include: class
+    - include: class-constructor
+    - include: functions
+    - include: function-call
+    - include: dots
+    - include: quotes
+    - include: brackets
+    - include: preprocessors
+    - include: comments
+    - include: var
+    - include: import
+    - include: keywords
+    - include: constants
+    - include: operators
+
+  comments:
+    - comment: inline comments
+      match: \s*((#|//).*$\n?)
+      scope: comment.line.number-sign
     - match: /\*
       scope: comment.block.zs
       push:
@@ -19,63 +67,12 @@ contexts:
           scope: comment.block.zs
           pop: true
 
-    - comment: strings
-      match: \".*?\"
-      scope: string.quoted.double.zs
-    - match: \"
-      scope: invalid.illegal.stray-bracket-end
-
-    - comment: var
-      scope: storage.type.zs
-      match: \b(var|byte)\b
-
-    - comment: control keywords
-      scope: keyword.control.zs
-      match: \b(print|return|break|case|continue|default|do|while|for|in|switch|if|else)\b
-
-    - comment: control keywords
-      scope: keyword.control.zs
-      match: ^import (.*?)(?=;\n)
-      captures:
-        1: storage.type.zs
-
+  constants:
     - comment: constants (true, false, null)
-      scope: constant.language.zs
       match: \b(true|false|null)\b
+      scope: constant.language.zs
 
-    - comment: numbers
-      scope: constant.numeric.zs
-      match: \b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\b
-
-    - comment: assignment operator
-      scope: keyword.operator.assignment.zs
-      match: (=)
-
-    - comment: math operators
-      scope: keyword.operator.arithmetic.zs
-      match: (\-|\+|\*|\/|%)
-      
-    - match: \(
-      push: roundbrackets
-    - match: \)
-      scope: invalid.illegal.stray-bracket-end.zs
-    
-    - match: \[
-      push: squarebrackets
-    - match: \]
-      scope: invalid.illegal.stray-bracket-end.zs
-
-    - match: \{
-      push: curlybrackets
-    - match: \}
-      scope: invalid.illegal.stray-bracket-end.zs
-
-    - match: \<
-      scope: keyword.control.zs
-      push: ltgtbrackets
-    - match: \>
-      scope: invalid.illegal.stray-bracket-end.zs
-
+  dots:
     - comment: dots
       match: \b(\w+)(\.)(\w+)((\.)(\w+))*
       scope: source.zs
@@ -84,38 +81,72 @@ contexts:
         2: keyword.control.zs
         5: keyword.control.zs
 
-  roundbrackets:
-    - match: \)
-      pop: true
-    - include: main
-
-  squarebrackets:
-    - match: \]
-      pop: true
-    - include: main
-
-  curlybrackets:
-    - match: \}
-      pop: true
-    - include: main
-
-  ltgtbrackets:
-    - comment: ores and liquids
-      match: \b(ore|liquid)(:(.*?)?)>
-      scope: keyword.other.zs
+  function-call:
+    - comment: function calls
+      match: (?!function)([A-Za-z_$][\w$]*)\s*(?=\()
+      scope: meta.function-call.zs
       captures:
-        1: storage.type.zs
-        3: variable.parameter.zs
-      pop: true
+        1: entity.name.function.zs
 
-    - comment: items and blocks
-      match: \b(.*?)(:(.*?(:(\d+)?)?)?)>
-      scope: keyword.other.zs
+  functions:
+    - comment: functions
+      match: function\s+([A-Za-z_$][\w$]*)\s*(?=\()
+      scope: meta.function.zs
       captures:
-        1: entity.name.zs
-        3: variable.parameter.zs
-        5: constant.numeric.zs
-      pop: true
+        0: storage.type.function.zs
+        1: entity.name.function.zs
 
-    - match: \>
-      scope: invalid.illegal.stray-bracket-end.zs
+  import:
+    - comment: package import
+      match: (import) .*?(;)
+      captures:
+        1: keyword.other.import.zs
+        2: punctuation.terminator.zs
+      scope: meta.import.zs
+
+  keywords:
+    - comment: control keywords
+      match: \b(in|has|void|as|version|for|return|while|break|instanceof)\b
+      scope: keyword.control.zs
+    - comment: storage keywords
+      match: \b(any|bool|byte|short|int|long|float|double|string)\b
+      scope: storage.type.zs
+    - comment: as holder keywords
+      match: \b(?<=(as\s))[a-zA-Z]+\b
+      scope: storage.type.zs
+    - comment: function keyword
+      match: \b(function)\b
+      scope: storage.type.function.zs
+    - comment: statement keywords
+      match: \b(if|else)\b
+      scope: keyword.control.conditional.zs
+
+  operators:
+    - comment: math operators
+      match: (\.\.|\+=|\+|-=|-|\*=|\*|\/=|\/|%=|%|\|=|\||\|\||&=|&&|&|\^=|\^|\?|:|~=|~|;|<=|<|>=|>|==|=|!=|!|\$)
+      scope: keyword.operator
+
+  preprocessors:
+    - match: ^(\s*)(#)(debug|ignoreBracketErrors|norun|loader|priority|ikwid|profile|zslint|modloaded)
+      scope: constant.numeric.zs
+      captures:
+        1: keyword.control.zs
+        2: keyword.control.zs
+        3: variable.language.zs
+
+  quotes:
+    - comment: double quotes
+      match: \".*?\"
+      scope: string.quoted.double.zs
+    - match: \"
+      scope: invalid.illegal.stray-bracket-end
+    - comment: single quotes
+      match: \'.*?\'
+      scope: string.quoted.single.zs
+    - match: \'
+      scope: invalid.illegal.stray-bracket-end
+
+  var:
+    - comment: var
+      match: \b(var|val|static|global)\b
+      scope: storage.type
